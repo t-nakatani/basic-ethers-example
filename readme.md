@@ -1,7 +1,9 @@
 # basic-ethers-example
 
 ## usage
-はじめに、sample.envをコピーして.envを作成し、適切な値を設定
+1. alchemy等のRPC proivderからエンドポイントを取得
+2. sample.envをコピーして.envを作成し、適切な値を設定
+3. 以下を実行
 
 ```sh
 docker build -t dex-example .
